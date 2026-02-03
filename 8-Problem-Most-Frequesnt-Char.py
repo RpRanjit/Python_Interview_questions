@@ -1,3 +1,5 @@
+# Concepr you shoul be familiar with is loop and dict
+
 def most_repeating_char(word):
     char_dict = {}
     for char in word:
@@ -13,4 +15,4 @@ def most_repeating_char(word):
             max_char = char
     return max_count, max_char
 
-print(most_repeating_char("anaconda"))
+print(most_repeating_char(""))
